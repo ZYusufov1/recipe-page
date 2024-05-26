@@ -1,0 +1,28 @@
+.table {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        font-family: Outfit, serif;
+        padding: 8px 12px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    tr:not(:last-child) th, tr:not(:last-child) td {
+        border-bottom: 1px solid #E3DDD7;
+    }
+
+    th:nth-child(1), td:nth-child(1) {
+        color: #5F564D;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+        font-weight: 700;
+        color: #854632;
+    }
+}
