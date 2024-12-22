@@ -1,0 +1,22 @@
+.recipePage__1FP58{padding-top:124px;padding-bottom:124px;display:flex;justify-content:center;align-content:center}.recipePage__image__1T-H1{width:100%;height:300px;object-fit:cover;border-radius:10px}.recipePage__whiteBoard__13oFk{width:656px;height:fit-content;background:#fff;display:flex;flex-direction:column;gap:40px;border-radius:20px;padding:40px}.recipePage__block__2k3FH{display:flex;height:fit-content;flex-direction:column;gap:32px}.recipePage__line__1jaYd{border:1px solid #e3ddd7}@media(max-width: 768px){.recipePage__1FP58{padding:0}.recipePage__whiteBoard__13oFk{width:auto;gap:0;border-radius:0;padding:0}.recipePage__image__1T-H1{height:171px;object-fit:cover;border-radius:0}.recipePage__block__2k3FH{padding:40px 32px;gap:32px}}
+.description__2pJlw{display:flex;flex-direction:inherit;gap:24px}.description__title__2VcX9{font-family:Young Serif,serif;font-size:40px;font-weight:400;line-height:40px;text-align:left;color:#312e2c}.description__text__2u0EW{font-family:Outfit,serif;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#5f564d}@media(max-width: 768px){.description__title__2VcX9{font-size:36px;line-height:36px}}
+.preparationTime__2I0rN{display:flex;flex-direction:inherit;border-radius:12px;padding:28px;gap:16px;background:#fff7fb}.preparationTime__title__2H0oz{font-family:Outfit,serif;font-size:20px;font-weight:600;line-height:20px;text-align:left;color:#7a284e}.preparationTime__2I0rN ul{display:flex;flex-direction:column;margin-top:0;margin-bottom:0;padding-left:24px;gap:8px;list-style-position:outside}.preparationTime__2I0rN li{padding-left:16px;line-height:24px;color:#5f564d}
+.ingredients__690zk{display:flex;flex-direction:inherit;gap:24px}.ingredients__title__1Meeg{font-family:Young Serif,serif;font-size:28px;font-weight:400;line-height:28px;text-align:left;color:#854632}.ingredients__690zk ul{display:flex;flex-direction:column;margin-top:0;margin-bottom:0;gap:8px;padding-left:24px;list-style-position:outside}.ingredients__690zk li{padding-left:16px;line-height:24px;color:#5f564d}
+.instructions__3IXuM{display:flex;flex-direction:inherit;gap:16px}.instructions__title__1EbwV{font-family:Young Serif,serif;font-size:28px;font-weight:400;line-height:28px;text-align:left;color:#854632}.instructions__3IXuM ol{display:flex;flex-direction:column;margin-top:0;margin-bottom:0;padding-left:24px;gap:8px;list-style-position:outside}.instructions__3IXuM li{padding-left:16px;line-height:24px;color:#5f564d}.instructions__3IXuM li::marker{font-size:16px;font-weight:700;line-height:24px;text-align:left}
+.nutrition__2e7qj{display:flex;flex-direction:inherit;gap:24px}.nutrition__title__1Oq9m{font-family:Young Serif,serif;font-size:28px;font-weight:400;line-height:28px;text-align:left;color:#854632}.nutrition__description__B9n-7{font-family:Outfit,serif;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#5f564d}
+.table__30wHC table{border-collapse:collapse;width:100%}.table__30wHC th,.table__30wHC td{font-family:Outfit,serif;padding:12px 0 12px 32px;text-align:left;font-size:16px;font-weight:400;line-height:24px}.table__30wHC tr:first-child>th{padding-top:0}.table__30wHC tr:not(:last-child) th,.table__30wHC tr:not(:last-child) td{border-bottom:1px solid #e3ddd7}.table__30wHC th:nth-child(1),.table__30wHC td:nth-child(1){color:#5f564d}.table__30wHC th:nth-child(2),.table__30wHC td:nth-child(2){font-weight:700;color:#854632}
+body {
+  margin: 0;
+  background-color: #F3E5D7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
