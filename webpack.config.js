@@ -1,13 +1,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.tsx',
     output: {
-        filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/',
+        filename: 'bundle.js',
+        publicPath: '/recipe-page/',
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js'],
@@ -47,6 +48,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[path][name].[ext]',
+                            publicPath: '/recipe-page/',
                         },
                     },
                 ],
@@ -66,6 +68,11 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: '[name].css',
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: 'public', to: '.', filter: (resourcePath) => !resourcePath.endsWith('index.html') }, // Исключаем index.html
+            ],
         }),
     ],
     devServer: {
